@@ -112,6 +112,8 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/audio/audio_effects.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_effects.xml \
     $(LOCAL_PATH)/audio/card-defs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/card-defs.xml
 
+$(call soong_config_set,android_hardware_audio,run_64bit,true)
+
 # Audio - SoundFX
 PRODUCT_PACKAGES += \
     libaudiopreprocessing \
