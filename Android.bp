@@ -4,6 +4,9 @@
 //
 
 soong_namespace {
+    imports: [
+        "vendor/motorola/sm8475-common",
+    ],
 }
 
 install_symlink {
