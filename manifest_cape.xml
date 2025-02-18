@@ -285,10 +285,6 @@
         <transport>hwbinder</transport>
         <fqname>@3.0::IRTPService/imsrtpservice</fqname>
     </hal>
-    <hal format="hidl" override="true">
-        <name>vendor.qti.memory.pasrmanager</name>
-        <transport>hwbinder</transport>
-    </hal>
     <hal format="hidl">
         <name>vendor.qti.qesdhal</name>
         <transport>hwbinder</transport>
