@@ -69,10 +69,6 @@
     <hal format="hidl">
         <name>com.motorola.hardware.biometric.fingerprint</name>
         <transport>hwbinder</transport>
-        <interface>
-            <name>IMotoFingerPrintSensorTest</name>
-            <instance>default</instance>
-        </interface>
         <fqname>@1.0::IMotoFingerPrint/default</fqname>
         <fqname>@1.0::IMotoFingerPrintSensorTest/default</fqname>
     </hal>
