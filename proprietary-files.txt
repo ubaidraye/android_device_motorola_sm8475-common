@@ -587,7 +587,6 @@ vendor/etc/vhw.xml
 # Perf
 vendor/bin/hw/vendor.qti.hardware.perf-hal-service
 vendor/bin/poweropt-service
-vendor/etc/init/init.maxe.rc
 vendor/etc/init/poweropt-service.rc
 vendor/etc/init/vendor.qti.hardware.perf-hal-service.rc
 vendor/etc/perf/avcsysnodesconfigs.xml
